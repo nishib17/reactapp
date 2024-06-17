@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
+import ComponentA from '../../ComponentA';
 
 export default function CreateUser() {
 
@@ -29,8 +30,6 @@ export default function CreateUser() {
                 // navigate('/dashboard')
                 navigate('/combined')
 
-                
-
 
             }else if(response.status === 400){
                 // alert("Validation Errors")
@@ -47,6 +46,11 @@ export default function CreateUser() {
 
     }
     return (
+        <div className="combined-container">
+        <div className="component component-a">
+          <ComponentA />
+        </div>
+        <div className="component component-b">
         <div className="container my-4">
             <div className="row">
                 <div className="col-md-8 mx-auto rounded border p-4">
@@ -115,5 +119,9 @@ export default function CreateUser() {
             </div>
 
         </div>
+        </div>
+      </div>
+
+        
     )
 }
