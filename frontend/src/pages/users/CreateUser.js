@@ -53,8 +53,8 @@ export default function CreateUser() {
         <div className="component component-b">
         <div className="container my-4">
             <div className="row">
-                <div className="col-md-8 mx-auto rounded border p-4">
-                    <h2 className="text-center mb-5">Create User</h2>
+                <div className="col-md-8 mx-auto rounded border p-4 bg-white">
+                    <h4 className="text-left mb-3">Create User</h4>
                     <form onSubmit={handleSubmit}>
                         <div className="row mb-3">
                             <label className="col-sm-4 col-form-label">User</label>

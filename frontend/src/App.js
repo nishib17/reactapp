@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { useEffect } from "react";
 
 import './App.css';
 // Import components
@@ -15,6 +16,9 @@ import EditUser from './pages/users/EditUser';
 import CombinedPage from './CombinedPage';
 
 function App() {
+  useEffect(() => {
+    document.body.style.backgroundColor = 'aliceblue'; // Replace 'lightgray' with any color you prefer
+  }, []);
   return (
     <BrowserRouter className="App">
       <Routes>

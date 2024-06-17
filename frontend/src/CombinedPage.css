@@ -1,21 +1,21 @@
 /* src/CombinedPage.css */
 .combined-container {
     display: flex;
-    padding: 20px;
-    box-sizing: border-box;
-    background-color:aliceblue
-    
+    padding: 30px;
+    box-sizing: border-box;  
   }
   
   .component {
-    
     box-sizing: border-box;
-    
+    height: 700px; 
+   
   }
   
   .component-a {
     flex-basis: 20%; /* Set ComponentA to take up 20% of the width */
     margin-right: 10px; /* Add some margin to the right of ComponentA */
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-info-rgb), var(--bs-bg-opacity)) !important;
   }
   
   .component-b {

@@ -1,4 +1,3 @@
-// src/ComponentB.js
 import React from 'react';
 import { useEffect, useState } from "react"
 import DataTable from 'react-data-table-component'
@@ -112,7 +111,7 @@ const ComponentB = () => {
     return (
         <div>
 
-            <div className="container mt-2" style={{ padding: "50px 10%" }}>
+            <div className="container" style={{ padding: "" }}>
 
                 {/* <div className="row mb-3">
                 <div className="col">
@@ -123,7 +122,7 @@ const ComponentB = () => {
                 </div>
             </div> */}
 
-                <div style={{ display: 'flex', justifyContent: 'right' }}>
+                <div style={{ display: 'flex', justifyContent: 'right', marginBottom:'20px' }}>
 
                     <DropdownButton id="dropdown-basic-button" title="Export" variant="info" className="me-3">
                         <Dropdown.Item as="button" onClick={exportToExcel}>Download Excel</Dropdown.Item>
@@ -149,7 +148,7 @@ const ComponentB = () => {
                     headRow: {
                         style: {
                             fontWeight: 'bold',
-                            fontSize: '16px'
+                            fontSize: '18px'
                         },
                     },
                 }} columns={column} data={users} pagination selectableRows title="User Management">

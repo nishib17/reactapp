@@ -9,5 +9,15 @@
       "imageFilename": "1718521436356_pexels-pixabay-36717.jpg",
       "createdAt": "2024-06-16T07:03:56.361Z",
       "id": 1
+    },
+    {
+      "user": "admin2",
+      "email": "admin2@gmail.com",
+      "role": "Admin",
+      "status": "Active",
+      "imageFilename": "1718637988789_Hyundai Exter Right Rear View.jpg",
+      "createdAt": "2024-06-17T15:26:28.796Z",
+      "id": 2
     }
-  ]}
+  ]
+}

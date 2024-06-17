@@ -69,8 +69,8 @@ export default function EditUser() {
         <div className="component component-b">
         <div className="container my-4">
             <div className="row">
-                <div className="col-md-8 mx-auto rounded border p-4">
-                    <h2 className="text-center mb-5">Edit User</h2>
+                <div className="col-md-8 mx-auto rounded border p-4 bg-white">
+                    <h4 className="text-left mb-3">Edit User</h4>
                     {
                         initialData &&
                         <form onSubmit={handleSubmit}>
