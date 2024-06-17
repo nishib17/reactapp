@@ -1,0 +1,28 @@
+/* src/CombinedPage.css */
+.combined-container {
+    display: flex;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color:aliceblue
+    
+  }
+  
+  .component {
+    
+    box-sizing: border-box;
+    
+  }
+  
+  .component-a {
+    flex-basis: 20%; /* Set ComponentA to take up 20% of the width */
+    margin-right: 10px; /* Add some margin to the right of ComponentA */
+  }
+  
+  .component-b {
+    flex-basis: 80%; /* Set ComponentB to take up 80% of the width */
+  }
+
+
+
+  
+  
