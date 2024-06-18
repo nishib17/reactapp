@@ -10,7 +10,7 @@ const connection = mysql.createConnection({
 
     host: 'localhost',
     user: 'root',
-    pass: 'Jump@123',
+    pass: '',
     database: 'dashboard'
 })
 
