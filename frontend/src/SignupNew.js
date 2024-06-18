@@ -44,7 +44,13 @@ function SignupNew() {
        
       }
     return (
-        <div className='d-flex justify-content-center align-items-center bg-info vh-100'>
+        <div className="row backimg">
+        <div className="col-md-3">
+
+            
+        </div>
+        <div className="col-md-9">
+        <div className='d-flex justify-content-center align-items-center vh-100'>
             <div className='bg-white p-3 rouded w-25'>
                 <h4 className='text-center p-1'>Sign In</h4>
                 <form action='' onSubmit={handleSubmit}>
@@ -71,6 +77,8 @@ function SignupNew() {
                     </div>
                 </form>
             </div>
+        </div>
+        </div>
         </div>
     )
 }

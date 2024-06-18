@@ -124,7 +124,7 @@ const ComponentB = () => {
 
                 <div style={{ display: 'flex', justifyContent: 'right', marginBottom:'20px' }}>
 
-                    <DropdownButton id="dropdown-basic-button" title="Export" variant="info" className="me-3">
+                    <DropdownButton id="dropdown-basic-button" title="Download Report As" variant="default" className="me-3">
                         <Dropdown.Item as="button" onClick={exportToExcel}>Download Excel</Dropdown.Item>
                         <Dropdown.Item as="button" onClick={exportToPDF}>Download PDF</Dropdown.Item>
                         <Dropdown.Item as="button">
